@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/5d8733d79e.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <!-- header -->
+
+    <header>
+        <div class="content flex_space">
+            <div class="logo">
+
+                <img src="image/logo.jpg" alt="">
+
+            </div>
+
+            <div class="navlinks">
+                <ul id="menulist">
+                    <li><a href="index.html">Back to Previous Page</a></li>
+                    <li><i class="fas fa-search"></i></li>
+                </ul>
+                <span class="fa fa-bars" onclick="menutoggle()"></span>
+            </div>
+        </div>
+    </header>
+
+    <script>
+        var menulist = document.getElementById('menulist');
+        menulist.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (menulist.style.maxHeight == "0px") {
+                menulist.style.maxHeight = "100vh";
+            }
+            else {
+                menulist.style.maxHeight = "0px";
+            }
+        }
+    </script>
+
+
+
+    <!-- header -->
+
+    <!-- rooms -->
+   
+    <section class="rooms" id="rooms">
+        <div class="container top">
+            <div class="heading">
+                <h1>EXPLORE</h1>
+                <h2>Our Rooms</h2>
+            </div>
+
+            <div class="content mtop">
+
+                <div class="booking">
+                    <div class="items">
+                        <div class="image">
+                            <img src="image/Royal-3.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>Executive Rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Our suites offer you a lifestyle of grace and dignity. These suites feature a living room
+                                and a bedroom and come with all the modern luxuries.</p>
+
+                        </div>
+                    </div>
+
+                    <section class="booker">
+
+                        <div class="container flex_space">
+                            <div class="text">
+                                <h1><span>Book</span> Your Rooms </h1>
+                            </div>
+                            <div class="form">
+                                <form class="grid">
+                                    <input type="date" placeholder="Arival Date">
+                                    <input type="date" placeholder="Departure Date">
+                                    <input type="number" placeholder="Adults">
+                                    <input type="number" placeholder="Children">
+                                    <br>
+                                    <button class="primary-btn">BOOK NOW</button>
+                                    <h3>₹5000 <span class="day"><br>Per Night</span> </h3>
+                                </form>
+                            </div>
+                        </div>
+
+
+                    </section>
+                    
+                    <div class="items">
+                        <div class="image">
+                            <img src="image/Room-1.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>Deluxe Rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>Our suites offer you a lifestyle of grace and dignity. These suites feature a living room
+                                and a bedroom and come with all the modern luxuries.</p>
+
+                        </div>
+                    </div>
+
+                    <section class="booker">
+
+                        <div class="container flex_space">
+                            <div class="text">
+                                <h1><span>Book</span> Your Rooms </h1>
+                            </div>
+                            <div class="form">
+                                <form class="grid">
+                                    <input type="date" placeholder="Arival Date">
+                                    <input type="date" placeholder="Departure Date">
+                                    <input type="number" placeholder="Adults">
+                                    <input type="number" placeholder="Children">
+                                    <br>
+                                    <button class="primary-btn">BOOK NOW</button>
+                                    <h3>₹10000 <span class="day"><br>Per Night</span> </h3>
+                                </form>
+                            </div>
+                        </div>
+
+
+                    </section>
+
+
+                    <div class="items">
+                        <div class="image">
+                            <img src="image/Room-3.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>Suporior Rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>The rooms are planned with a single purpose in mind - your convenience. It is a
+                                combination of utility and luxury that is sure to leave you asking for more.</p>
+
+                        </div>
+                    </div>
+
+                    <section class="booker">
+
+                        <div class="container flex_space">
+                            <div class="text">
+                                <h1><span>Book</span> Your Rooms </h1>
+                            </div>
+                            <div class="form">
+                                <form class="grid">
+                                    <input type="date" placeholder="Arival Date">
+                                    <input type="date" placeholder="Departure Date">
+                                    <input type="number" placeholder="Adults">
+                                    <input type="number" placeholder="Children">
+                                    <br>
+                                    <button class="primary-btn">BOOK NOW</button>
+                                    <h3>₹15000 <span class="day"><br>Per Night</span> </h3>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                    <div class="items">
+                        <div class="image">
+                            <img src="image/Royal-1.jpg" alt="">
+                        </div>
+
+                        <div class="text">
+                            <h2>Royal Rooms</h2>
+                            <div class="rate flex">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                            <p>The rooms are planned with a single purpose in mind - your convenience. It is a
+                                combination of utility and luxury that is sure to leave you asking for more.</p>
+
+                        </div>
+                    </div>
+
+                    <section class="booker">
+
+                        <div class="container flex_space">
+                            <div class="text">
+                                <h1><span>Book</span> Your Rooms </h1>
+                            </div>
+                            <div class="form">
+                                <form class="grid">
+                                    <input type="date" placeholder="Arival Date">
+                                    <input type="date" placeholder="Departure Date">
+                                    <input type="number" placeholder="Adults">
+                                    <input type="number" placeholder="Children">
+                                    <br>
+                                    <button class="primary-btn">BOOK NOW</button>
+                                    <h3>₹20000 <span class="day"><br>Per Night</span> </h3>
+                                </form>
+                            </div>
+                        </div>
+
+
+                    </section>
+                </div>
+            </div>
+    </section>
+     <!-- rooms -->
+</body>
+
+</html>
